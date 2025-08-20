@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan's GIS Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .project {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    .project h2 {
+      margin-top: 0;
+    }
+    .project a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nathan's GIS Portfolio</h1>
+    <p>WebGIS Development | Environmental Planning | Military Applications</p>
+  </header>
+
+  <div class="container">
+
+    <div class="project">
+      <img src="data/dam.png" alt="Dam Impact Assessment Screenshot" />
+      <h2>Dam Impact and Flood Risk Assessment</h2>
+      <p>Interactive tool for assessing dam proximity and flood risk using buffer analysis and elevation sampling.</p>
+      <p><a href="https://dam-impact-assessment-853d56db071a.herokuapp.com/" target="_blank">View Application</a> | 
+         <a href="https://www.youtube.com/watch?v=1SDyd4GQi8M&t=2s" target="_blank">Watch Demo</a></p>
+    </div>
+
+    <div class="project">
+      <img src="data/peninsula.png" alt="Peninsula State Park Screenshot" />
+      <h2>Peninsula State Park WebGIS</h2>
+      <p>Custom mapping app for recreation, wildlife tracking, and dam impact visualization. Hosted without database for demo.</p>
+      <p><a href="https://peninsula-state-park-6aced2ae06e5.herokuapp.com/" target="_blank">View Application</a> | 
+         <a href="https://www.youtube.com/watch?v=RJ4MRfYfIsE" target="_blank">Watch Demo</a></p>
+    </div>
+
+    <div class="project">
+      <img src="data/idw.png" alt="Cancer Tract and Well Nitrate Screenshot" />
+      <h2>Cancer Tract and Well Nitrate IDW</h2>
+      <p>Spatial interpolation of nitrate levels across cancer tracts using Inverse Distance Weighting (IDW).</p>
+      <p><a href="https://www.youtube.com/watch?v=CzdlVgLT258&t=6s" target="_blank">Watch Demo</a></p>
+    </div>
+
+    <div class="project">
+      <img src="data/mayville.png" alt="Mayville Story Map Screenshot" />
+      <h2>Mayville WI Story Map</h2>
+      <p>ArcGIS StoryMap showcasing community assets, planning zones, and infrastructure layers.</p>
+      <p><a href="https://storymaps.arcgis.com/stories/b6d25369ee774f02926296eba9c6debb" target="_blank">View Story Map</a></p>
+    </div>
+
+    <div class="project">
+      <img src="data/helping_hand.png" alt="Helping Hand Story Map Screenshot" />
+      <h2>Helping Hand Story Map</h2>
+      <p>Community-focused StoryMap designed to support outreach and resource coordination.</p>
+      <p><a href="https://storymaps.arcgis.com/stories/aeae4fece9d741d98b484446dd781c7e" target="_blank">View Story Map</a></p>
+    </div>
+
+    <div class="project">
+      <img src="data/safetravel.png" alt="Safe Travel App Screenshot" />
+      <h2>Safe Travel Application</h2>
+      <p>WebGIS tool for reporting travel events, hazards, and route conditions. Built with Leaflet and Flask.</p>
+      <p><a href="https://safe-travel-aeeec81547d9.herokuapp.com/" target="_blank">View Application</a></p>
+    </div>
+
+  </div>
+</body>
+</html>
