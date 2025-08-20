@@ -184,17 +184,22 @@
 
   </div>
     <script>
-    function enterSite() {
-      document.getElementById("splashScreen").style.display = "none";
-    }
+      // Show splash screen on load
+      window.onload = function () {
+        document.getElementById("splashScreen").style.display = "flex";
+      };
 
-    function openContact() {
-      document.getElementById("contactModal").style.display = "block";
-    }
+      function enterSite() {
+        document.getElementById("splashScreen").style.display = "none";
+      }
 
-    function closeContact() {
-      document.getElementById("contactModal").style.display = "none";
-    }
-  </script>
+      function openContact() {
+        document.getElementById("contactModal").style.display = "block";
+      }
+
+      function closeContact() {
+        document.getElementById("contactModal").style.display = "none";
+      }
+    </script>
 </body>
 </html>
