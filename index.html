@@ -118,7 +118,7 @@
       <p>My name is Nathan Schuelke. I graduated from the University of Wisconsin–Stevens Point in 2023 with a Bachelor of Science in Geospatial Science, and from the University of Wisconsin–Madison in 2025 with a Master of Science in Geographic Information Systems Development.</p>
       <p>Please enjoy the applications I've built—each one reflects my passion for spatial analysis, public service, and user-centered design.</p>
       <button onclick="enterSite()">View Portfolio</button>
-      <button onclick="openContact()">Contact Me</button>
+      
     </div>
   </div>
 
@@ -183,10 +183,15 @@
     </div>
 
   </div>
+    <div style="text-align: center; margin: 40px 0;">
+    <button onclick="openContact()" style="padding: 10px 20px; font-size: 16px; background-color: #2980b9; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Contact Me
+    </button>
+  </div>
     <script>
-      // Show splash screen on load
       window.onload = function () {
         document.getElementById("splashScreen").style.display = "flex";
+        document.getElementById("contactModal").style.display = "none"; // Ensure modal is hidden
       };
 
       function enterSite() {
